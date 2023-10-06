@@ -49,7 +49,7 @@ const WeatherApp = () => {
 
     useEffect(() => {
         fetchData('London');
-    });
+},[]);
 
     const getWeatherIcon = (iconCode) => {
         const iconMapping = {
