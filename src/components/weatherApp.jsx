@@ -33,7 +33,7 @@ const WeatherApp = () => {
 
         if (response.ok) {
             const temperatureCelsius = `${data.main.temp}°C`;
-            const temperatureFahrenheit = `${(data.main.temp * 9/5 + 32).toFixed(2)}°F`; // Convert to Fahrenheit
+            const temperatureFahrenheit = `${(data.main.temp * 9 / 5 + 32).toFixed(2)}°F`; // Convert to Fahrenheit
             setWeatherData({
                 humidity: `${data.main.humidity}%`,
                 windSpeed: `${data.wind.speed} km/h`,
@@ -106,9 +106,9 @@ const WeatherApp = () => {
                     <div className='backgroundBox flex items-center justify-center rounded-xl w-full p-5 shadow-xl text-white font-extrabold text-3xl text-center sm:w-2/3'>{weatherData.location}</div>
                     <div className='backgroundBox flex-col rounded-xl p-5 shadow-xl text-white font-extrabold text-4xl flex justify-center items-center text-center sm:w-2/3'>
                         <div>{isCelsius ? weatherData.temperatureCelsius : weatherData.temperatureFahrenheit}</div>
-                    <button onClick={toggleTemperatureUnit} className='toggle-button text-sm'>
-                    {isCelsius ? 'Switch to Fahrenheit' : 'Switch to Celsius'}
-                </button>
+                        <button onClick={toggleTemperatureUnit} className='toggle-button text-sm'>
+                            {isCelsius ? 'Switch to Fahrenheit' : 'Switch to Celsius'}
+                        </button>
                     </div>
                 </div>
                 <div className='backgroundBox rounded-xl shadow-xl flex justify-between text-white font-bold tracking-wide p-5'>
