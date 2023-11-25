@@ -1,6 +1,6 @@
 # Weather App ☀️
 
-### [Demo](https://weather-app-0xayushm.vercel.app/) | [Video](https://youtu.be/wgeJvdAc7i4)
+### [Demo](https://weather-app-0xayushm.vercel.app/) | [Video](https://youtu.be/0ls5DqBSaVo)
 
 <img src='./public/readme.png'> 
 
