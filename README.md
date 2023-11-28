@@ -12,6 +12,13 @@ This is a simple weather application built using React. It allows users to searc
 - **Temperature Unit Toggle**: Switch between Celsius and Fahrenheit units for temperature display.
 - **Weather Icon**: Displays an appropriate weather icon based on the current weather conditions.
 
+## Technologies Used ❄️
+
+![React-JS](https://img.shields.io/badge/ReactJs-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Tailwind-CSS](https://img.shields.io/badge/Tailwind-ff6666?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB)
+
+
 ## Getting Started ⚡️
 
 To get started with this application, follow these steps:
@@ -52,9 +59,4 @@ To get started with this application, follow these steps:
 - Weather information for the specified location will be displayed, including temperature, humidity, wind speed, and weather description.
 - Click the "Switch to Celsius" or "Switch to Fahrenheit" button to toggle between temperature units.
 
-## Technologies Used ❄️
-
-![React-JS](https://img.shields.io/badge/ReactJs-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Tailwind-CSS](https://img.shields.io/badge/Tailwind-ff6666?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB)
 
